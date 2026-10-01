@@ -1,0 +1,162 @@
+{
+  "firstLayout": "Main",
+  "gdVersion": {
+    "build": 99,
+    "major": 5,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adapters": [],
+    "folderProject": false,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "landscape",
+    "packageName": "com.example.amongusbots",
+    "projectFileType": "exportedGDevelopProject",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "useExternalEvents": false,
+    "version": "1.0.0"
+  },
+  "resources": {
+    "resources": []
+  },
+  "objects": [
+    {
+      "animations": [
+        {
+          "direction": 0,
+          "file": "",
+          "imageIndex": 0,
+          "looping": false,
+          "name": "Default",
+          "points": [],
+          "speed": 1,
+          "timeBetweenFrames": 0.1,
+          "type": "empty"
+        }
+      ],
+      "behaviors": [],
+      "name": "Player",
+      "type": "Sprite",
+      "variables": []
+    },
+    {
+      "animations": [
+        {
+          "direction": 0,
+          "file": "",
+          "imageIndex": 0,
+          "looping": false,
+          "name": "Default",
+          "points": [],
+          "speed": 1,
+          "timeBetweenFrames": 0.1,
+          "type": "empty"
+        }
+      ],
+      "behaviors": [],
+      "name": "Bot",
+      "type": "Sprite",
+      "variables": []
+    },
+    {
+      "animations": [
+        {
+          "direction": 0,
+          "file": "",
+          "imageIndex": 0,
+          "looping": false,
+          "name": "Default",
+          "points": [],
+          "speed": 1,
+          "timeBetweenFrames": 0.1,
+          "type": "empty"
+        }
+      ],
+      "behaviors": [],
+      "name": "Task",
+      "type": "Sprite",
+      "variables": []
+    }
+  ],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Main",
+      "name": "Main",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "Among Us IA Prototype",
+      "v": 5,
+      "uiSettings": {
+        "gridSize": 32,
+        "viewOffsetX": 0,
+        "viewOffsetY": 0,
+        "zoomFactor": 1
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "cameraType": "Default",
+          "customSize": true,
+          "height": 720,
+          "isLightingLayer": false,
+          "layerName": "Background",
+          "maxFallingSpeed": 1000,
+          "parallaxFactorX": 1,
+          "parallaxFactorY": 1,
+          "shadowColorB": 0,
+          "shadowColorG": 0,
+          "shadowColorR": 0,
+          "shadowOpacity": 0,
+          "shadowScalingFactor": 0,
+          "speedFactor": 1,
+          "tileSize": 16,
+          "visibility": true,
+          "width": 1280,
+          "xOffset": 0,
+          "yOffset": 0
+        }
+      ],
+      "behaviorsSharedData": [],
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Player controls",
+          "type": "BuiltinCommonInstructions::Group",
+          "subEvents": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": { "value": "KeyPressed" },
+                  "parameters": [
+                    "d",
+                    ""
+                  ]
+                }
+              ],
+              "actions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
